@@ -3,7 +3,6 @@
 N = int(input())
 M = int
 n = []
-m = []
 count = 0
 
 if 0<=N<10:
