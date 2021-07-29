@@ -1,7 +1,7 @@
 # https://www.acmicpc.net/problem/1157
 
 """
-# 메모리 31156KB 시간 376ms
+# 메모리 31156KB 시간 404ms
 words= input()
 words_list = [0 for i in range(26)]
 
@@ -12,9 +12,9 @@ for i in words:
         words_list[ord(i)-97] +=1
 
 words_list_max = max(words_list)
-words_list_max_index = words_list.index(max(words_list))
 
 if words_list.count(words_list_max) == 1:
+    words_list_max_index = words_list.index(words_list_max)
     print(chr(words_list_max_index+65))
 else:
     print('?')
