@@ -31,9 +31,9 @@ for i in words:
     words_list[ord(i)-65] +=1
 
 words_list_max = max(words_list)
-words_list_max_index = words_list.index(max(words_list))
 
 if words_list.count(words_list_max) == 1:
+    words_list_max_index = words_list.index(words_list_max)
     print(chr(words_list_max_index+65))
 else:
     print('?')
@@ -49,9 +49,9 @@ for i in words:
     words_list[ord(i)-65] = words.count(i)
 
 words_list_max = max(words_list)
-words_list_max_index = words_list.index(max(words_list))
 
 if words_list.count(words_list_max) == 1:
+    words_list_max_index = words_list.index(words_list_max)
     print(chr(words_list_max_index+65))
 else:
     print('?')
