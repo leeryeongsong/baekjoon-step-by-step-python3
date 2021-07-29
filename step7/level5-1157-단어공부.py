@@ -1,7 +1,7 @@
 # https://www.acmicpc.net/problem/1157
 
 """
-# 메모리 31156KB 시간 404ms
+# 메모리 31156KB 시간 392ms
 words= input()
 words_list = [0 for i in range(26)]
 
